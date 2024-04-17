@@ -4,7 +4,10 @@ on:
   push:
     branches:
       - main
- 
+
+env:
+  PLAYWRIGHT_BROWSERS_PATH: '/home/runner/.cache/ms-playwright'
+  
 jobs:
   artillery:
     runs-on: ubuntu-latest
