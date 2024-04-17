@@ -6,7 +6,7 @@ on:
       - main
 
 env:
-  PLAYWRIGHT_BROWSERS_PATH: '/github/home/.cache/ms-playwright'
+  PLAYWRIGHT_BROWSERS_PATH: './.cache/ms-playwright'
 
 jobs:
   artillery:
