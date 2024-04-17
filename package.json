@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "npx playwright test --ui",
-    "test": "npx playwright test"
+    "test": "artillery run smoke.yml"
   },
   "keywords": [],
   "author": "",
