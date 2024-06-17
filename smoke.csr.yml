@@ -1,5 +1,5 @@
 config:
-  target: https://chan4lk.github.io
+  target: https://uat.gyprock.com.au
   # Load the Playwright engine:
   engines:
     playwright: {}
