@@ -6,7 +6,8 @@
   "scripts": {
     "start": "npx playwright test --ui",
     "test": "artillery run smoke.yml",
-    "test:csr": "artillery run smoke.csr.yml"
+    "test:csr": "artillery run smoke.csr.yml",
+    "test:bc": "artillery run smoke.bc.yml"
   },
   "keywords": [],
   "author": "",
